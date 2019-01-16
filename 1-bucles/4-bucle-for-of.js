@@ -33,3 +33,17 @@ let gente = [{
         edad: 10
     },
 ]
+
+
+var j=0;
+var miArray=[];
+
+for (var i of gente){
+    if(i.edad > 25){
+        j+=1;
+        miArray[j]=i.nombre;
+        console.log(miArray[j])
+    }
+}
+
+
