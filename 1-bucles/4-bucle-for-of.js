@@ -40,9 +40,9 @@ var miArray=[];
 
 for (var i of gente){
     if(i.edad > 25){
-        j+=1;
         miArray[j]=i.nombre;
         console.log(miArray[j])
+        j++;
     }
 }
 

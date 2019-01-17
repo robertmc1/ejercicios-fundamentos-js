@@ -4,7 +4,5 @@
 
 var i;
 for (i=3; i<=18; i+=2){
-
     console.log(i);
-
 }

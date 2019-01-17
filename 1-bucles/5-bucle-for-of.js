@@ -39,8 +39,8 @@ var miArray=[];
 
 for(var i of gente){
     if(i.nombre[0] == "J"){
-        j+=1;
-        miArray[j]=i.nombre;
+        miArray[j]=i;
         console.log(miArray[j])
+        j++;
     }
 }

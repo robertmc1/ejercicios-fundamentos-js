@@ -35,3 +35,8 @@ let gente = [{
     },
 ]
 
+var miArray=[];
+
+miArray = gente.filter(gente => gente.nombre[0]=="J" && gente.edad > 40);
+
+console.log(miArray)
