@@ -10,11 +10,19 @@
 
 let ultimoCaracter = (texto) => {
     // Aquí tu código.  Desde aquí:
-  
 
+    if(typeof texto == "string" &&  texto.length == 0 ){
+        return  'Debo ser ejecutada con un string no vacío'
+    }
 
-    // Hasta aquí.
+    if(typeof texto == 'string'){
+        return texto[texto.length -1]
+    }else{
+        return 'Debo ser ejecutada con un string';
+    }
+
 }
+
 
 
 let test = require('../test.js');

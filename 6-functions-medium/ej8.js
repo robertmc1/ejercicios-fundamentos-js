@@ -13,6 +13,47 @@ let sumaDesdeHasta = (desde, hasta) => {
     let sumatorio = 0;
     // Aquí tu código.  Desde aquí:
 
+    //
+    // try {
+    //     if (typeof(desde) == 'number' && typeof(hasta) == 'number' && desde <hasta) {
+    //         for (let i = desde; i <= hasta; i++) {
+    //             sumatorio +=i;
+    //         }
+    //     } else if(typeof(desde) == 'number' && typeof(hasta) == 'number' && desde > hasta){
+    //         for (let i = desde; i >= hasta; i--) {
+    //             sumatorio +=i;
+    //         }
+    //     }else if(typeof(desde) == 'number' && typeof(hasta) == 'number' && desde == hasta){
+    //         for (let i = desde; i >= hasta; i--) {
+    //             sumatorio +=i;
+    //         }
+    //     }else {
+    //         throw (e);
+    //     }
+    //
+    // } catch (e) {
+    //     return 'Debo recibir números';
+    // }
+
+
+    //OTRA FORMA
+
+    desde = parseInt(desde);
+    hasta = parseInt(hasta);
+    let temp = hasta;
+    if (desde > hasta) {
+        for (hasta; hasta <= desde; hasta++) {
+            sumatorio += hasta;
+        }
+    } else if (typeof desde === "number" && typeof hasta === "number") {
+        for (desde; desde <= hasta; desde++) {
+            sumatorio += desde;
+        }
+    } else {
+        throw new Error("Debo recibir números");
+    }
+
+
     // Hasta aquí.
     return sumatorio;
 }

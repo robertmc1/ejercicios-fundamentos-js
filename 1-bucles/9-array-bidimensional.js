@@ -12,3 +12,17 @@ let matriz = [
     [],
     []
 ]
+
+for(let i=0; i <matriz.length; i++){
+    for(let j = 0; j < 3; j++){
+     if (i==0) {
+         matriz[i].push("0"+ j);
+     }else if(i==1){
+         matriz[i].push("1"+j);
+     }else if(i==2){
+         matriz[i].push("2"+j);
+     }
+    }
+}
+
+console.log(matriz);

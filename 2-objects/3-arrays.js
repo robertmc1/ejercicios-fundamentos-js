@@ -7,6 +7,22 @@
 // Aquí tu código
 
 
+var arr = [
+    miObj = {
+        name: 'pepito',
+        age: 25
+    },
+    miObj2 = {
+        name: 'pepito',
+        age: 6
+    },
+    miObj3 = {
+        name: 'J',
+        age: 5
+    }
+];
+
+
 // Hasta aquí
 
 // TEST 1

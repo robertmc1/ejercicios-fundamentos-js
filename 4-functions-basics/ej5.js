@@ -8,8 +8,17 @@
 
 let cuentaCaracteres = (texto) => {
     // Aquí tu código.  Desde aquí:
-   
-    
+
+    if(typeof texto == 'string'){
+        let numero = texto.length;
+        return numero;
+    }else{
+        return 'Debo ser ejecutada con un string';
+    }
+
+
+
+
     // Hasta aquí.
 }
 

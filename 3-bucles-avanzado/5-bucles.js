@@ -18,6 +18,13 @@ console.log('El array original es:  arr =', arr);
 
 // Aquí tu código
 
+//let total = arr.reduce(function(a, b){ return a + b; });
+
+var total = 0;
+for (var r of arr){
+    total += r;
+}
+
 
 // Hasta aquí
 console.log('El total nuevo es: ', total);

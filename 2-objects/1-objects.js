@@ -7,6 +7,16 @@
 // Aquí tu código
 
 
+var ordenador = {
+    marca:'La pava',
+    tipo:'portátil',
+    perifericos:["",'touchPad'],
+    almacenamiento:{
+        discos:['SSD', 'HDR'],
+        maestro: 0,
+    }
+}
+
 
 // Hasta aquí
 

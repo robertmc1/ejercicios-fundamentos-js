@@ -6,6 +6,17 @@
 
 // Aquí tu código
 
+
+var obj = {
+    a : {
+        b: true,
+        c: ['Hola', 1],
+    },
+    d : 5,
+    f : 'toto'
+}
+
+
 // Hasta aquí
 
 // TEST 1

@@ -8,6 +8,20 @@
 
 // Aquí tu código
 
+let convierteEurosEnPesetas = (euros) => {
+
+
+    if(typeof euros !== "string"){
+        let pesetas = euros * 168;
+        return pesetas
+    }else{
+        throw error;
+    }
+
+}
+
+
+
 // Hasta aquí
 
 

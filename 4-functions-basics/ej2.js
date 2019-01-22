@@ -7,8 +7,11 @@
 // Ha de pasar los test adjuntados.
 let convierteString = (numero) => {
     // Aquí tu código.  Desde aquí:
-
-    
+    if (typeof numero == 'number'){
+        return numero.toString();
+    }else{
+        return 'Debo ser ejecutada con un numero';
+    }
     // Hasta aquí.
 }
 
@@ -22,3 +25,4 @@ test(convierteString, [-2], '-2');
 test(convierteString, ['hola'], 'Debo ser ejecutada con un numero');
 test(convierteString, [true], 'Debo ser ejecutada con un numero');
 test(convierteString, [], 'Debo ser ejecutada con un numero');
+

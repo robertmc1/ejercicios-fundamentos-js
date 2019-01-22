@@ -6,13 +6,16 @@
 
 // Ha de pasar los test adjuntados.
 
+
 let duplicaNumero = (numero) => {
     // Aquí tu código.  Desde aquí:
-   
-
-
+    if (typeof(numero) == 'number') {
+        return numero * 2;
+    } else {
+        return 'Debo ser ejecutada con un numero';
+    }
     // Hasta aquí.
-}
+};
 
 let test = require('../test.js');
 
